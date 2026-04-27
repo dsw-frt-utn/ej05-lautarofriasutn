@@ -9,7 +9,7 @@ public abstract class Vehiculo
     private string patente;
     private string marca;
     private string modelo;
-    private int anio;
+    protected int anio;
     private double capacidadCarga;
     private Sucursal sucursal;
     private VehiculoTipo tipo;
